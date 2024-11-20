@@ -6,7 +6,6 @@ Inside that you have to write something like this..
 
 {
     "TOKEN": "YOUR_APPLICATION_TOKEN",
-
     "SQLSERVER_HOST": "localhost",
     "SQLSERVER_USER": "sa",
     "SQLSERVER_PASSWORD": "YOUR_PASSWORD",
