@@ -4,6 +4,12 @@ This is a discord application made with python using Nextcord.
 To make this work on your local pc you have to make a folder called "Config" inside the config folder you make a Config.Json
 Inside that you have to write something like this.. 
 
+You can find your token here
+https://discord.com/developers/applications
+
+And the open weather api here. 
+https://openweathermap.org/
+
 ```
 {
     "TOKEN": "YOUR_APPLICATION_TOKEN",
