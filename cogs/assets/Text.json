@@ -1,0 +1,41 @@
+{
+    "funfacts": {
+        "science": [
+            "Did you know? Honey never spoils!",
+            "Bananas are berries, but strawberries aren’t.",
+            "Octopuses have three hearts!"
+        ],
+        "animals": [
+            "Wombat poop is cube-shaped.",
+            "Cows have best friends and get stressed when separated from them.",
+            "Sharks existed before trees."
+        ],
+        "history": [
+            "The Eiffel Tower can grow more than 6 inches in summer.",
+            "Cleopatra lived closer to the first Moon landing than to the construction of the Great Pyramid of Giza."
+        ]
+    },
+    "quotes": {
+        "motivation": [
+            "The best way to predict the future is to create it. – Peter Drucker",
+            "Do not wait to strike till the iron is hot; but make it hot by striking. – William Butler Yeats",
+            "It does not matter how slowly you go as long as you do not stop. – Confucius",
+            "Your time is limited, so don’t waste it living someone else’s life. – Steve Jobs"
+        ],
+        "life": [
+            "Life is 10% what happens to us and 90% how we react to it. – Charles R. Swindoll",
+            "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. – Ralph Waldo Emerson",
+            "In three words I can sum up everything I've learned about life: it goes on. – Robert Frost"
+        ],
+        "success": [
+            "Success is not the key to happiness. Happiness is the key to success. – Albert Schweitzer",
+            "Success usually comes to those who are too busy to be looking for it. – Henry David Thoreau",
+            "The road to success and the road to failure are almost exactly the same. – Colin R. Davis"
+        ],
+        "love": [
+            "Love the one you’re with. – Stephen Stills",
+            "To love and be loved is to feel the sun from both sides. – David Viscott",
+            "Love is composed of a single soul inhabiting two bodies. – Aristotle"
+        ]
+    }
+}

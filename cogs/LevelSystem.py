@@ -20,19 +20,19 @@ class LevelSystem(commands.Cog):
             message_count, level = result
             embed = nextcord.Embed(
                 title=f"Level Information for {ctx.author.display_name}",
-                description="Her er dine oplysninger:",
+                description="Here is your information:",
                 color=nextcord.Color.green()
             )
-            embed.add_field(name="Beskeder", value=f"{message_count}", inline=True)
-            embed.add_field(name="Niveau", value=f"{level}", inline=True)
-            embed.set_footer(text="Trioinc Bot")
+            embed.add_field(name="Messages", value=f"{message_count}", inline=True)
+            embed.add_field(name="Level", value=f"{level}", inline=True)
+            embed.set_footer(text="© 2024 Trioinc")
         else:
             embed = nextcord.Embed(
                 title="Level Information",
-                description="Du er endnu ikke registreret i databasen.",
+                description="You are not registred in the database. Please contact out support.",
                 color=nextcord.Color.red()
             )
-            embed.set_footer(text="Trioinc Bot")
+            embed.set_footer(text="© 2024 Trioinc")
         await ctx.send(embed=embed)
 
 def setup(bot):

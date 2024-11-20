@@ -3,7 +3,9 @@ import json
 import os
 import pyodbc
 from nextcord.ext import commands
-from cogs.LevelSystem import setup  # Importer setup-funktionen
+from cogs.LevelSystem import setup
+from cogs.BasicCommands import setup
+from cogs.HelpCommand import setup
 
 # Load Bot Configuration
 with open("Config/Config.json", "r") as config_file:
@@ -19,17 +21,19 @@ db = pyodbc.connect(
 )
 cursor = db.cursor()
 
-# Bot Token
+# Bot Token og API Key
 TOKEN = config['TOKEN']
+OPENWEATHER_API_KEY = config['OPENWEATHER_API_KEY']
 
 # Setup Intents and Bot Prefix
 intents = nextcord.Intents.all()
 intents.message_content = True
-bot = commands.Bot(command_prefix="-", intents=intents)
+bot = commands.Bot(command_prefix="-", intents=intents, help_command=None)
 
-# Gem db og cursor som attributter på botten
+# Gem db, cursor og API-nøgle som attributter på botten
 bot.db = db
 bot.cursor = cursor
+bot.api_key = OPENWEATHER_API_KEY
 
 # Commands Handler
 for filename in os.listdir('./cogs'):
